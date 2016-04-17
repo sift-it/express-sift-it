@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": true,
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "preserveConstEnums": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node"
+    },
+    "buildOnSave": false,
+    "compileOnSave": true,
+    "exclude": [
+        "./**/*.d.ts",
+        "./node_modules/**/*.*"
+    ],
+    "filesGlob": [
+        "./express-sift-it.ts",
+        "./src/**/*.ts",
+        "./test/**/*.ts",
+        "./typings/main.d.ts"
+    ],
+    "files": [
+        "./express-sift-it.ts",
+        "./src/queryable.ts",
+        "./test/integration-tests/skip.tests.ts",
+        "./test/integration-tests/sort.tests.ts",
+        "./test/integration-tests/take.tests.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
